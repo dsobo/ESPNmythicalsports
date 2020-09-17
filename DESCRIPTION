@@ -1,21 +1,21 @@
-Package: yourpackage
-Title: My Supper API Wrapper
+Package: ESPNmythicalsports
+Title: My Super API Wrapper
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Colin",
-           family = "Fay",
+    person(given = "Dennis",
+           family = "Sobolewski",
            role = c("cre", "aut"),
-           email = "contact@colinfay.me")
-Description: A long description of this super package I'm
-    working on.
+           email = "dennis.sobolewski@gmail.com")
+Description: This is an API wrapper package for ESPN fantasy sport statistics
 License: MIT + file LICENSE
 URL: http://this
 BugReports: http://that
 Imports: 
-    attempt,
     curl,
     httr,
     jsonlite,
-    purrr
+    purrr,
+    dplyr
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
